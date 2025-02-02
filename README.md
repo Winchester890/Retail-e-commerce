@@ -61,15 +61,39 @@ POST /customer - Create a new customer
 
 GET /customer/{id} - Retrieve customer details by ID
 
+GET /customer - Retrieve all customers details
+
+PUT /customer - Update customer details
+
+DELETE /customer/{id} - Delete customer by ID
+
 Products
 
 POST /product - Add a new product
 
 GET /product/{id} - Get product details
 
+GET /product/byDescription/{description} - Get product details by description
+
+GET /product - Retrieve all products details
+
+PUT /product - Update product details
+
+DELETE /product/{id} - Delete product by ID
+
 Orders
 
 POST /order - Create a new order
+
+GET /order - Retrieve all orders details
+
+GET /order/{id} - Retrieve order details by ID
+
+GET /order/byProduct/{productId} - Retrieve order details by product ID
+
+PUT /order - Update order details
+
+DELETE /order/{id} - Delete order by ID
 
 # Testing
 
