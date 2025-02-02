@@ -42,7 +42,7 @@ Docker (optional, for database containerization)
 
 Clone the repository:
 
-git clone [https://github.com/your-repo/ecommerce-retail-service.git](https://github.com/Winchester890/Retail-e-commerce.git)
+git clone https://github.com/Winchester890/Retail-e-commerce.git
 
 
 # Build the project:
