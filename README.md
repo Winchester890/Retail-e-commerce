@@ -49,7 +49,7 @@ git clone https://github.com/Winchester890/Retail-e-commerce.git
 
 mvn clean install
 
-Run the application:
+# Run the application:
 
 mvn spring-boot:run
 
